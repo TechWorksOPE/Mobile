@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="br.com.dennisbeauty.mobile.myapplication.Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/colorAccent"
+         />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="227dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="fernandosousa@gmail.com"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:background="@color/colorAccent"
+        android:text="Email"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginTop="171dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Avenida Paulista 1000"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="138dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="+55 11 9999-9999"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:background="@color/colorAccent"
+        android:text="Telefone"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fernando Sousa"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="-86dp"
+        android:background="@color/colorAccent"
+        android:text="Nome"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginStart="16dp"
+        android:text="Editar"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="383dp"
+       />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="102dp"
+        android:text="Salvar"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="383dp"
+        />
+
+</RelativeLayout>
